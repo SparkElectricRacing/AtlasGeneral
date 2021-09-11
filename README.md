@@ -6,7 +6,7 @@
 
 **Motor Controller:** emDrive500 from [Emsiso]. ---- \[[500 Datasheet]\] -- \[[500 Manual]\]
 
-**BMS**: Orion BMS 2 + Thermistor Expansion Pack --- [Orion Downloads]
+**BMS**: Orion BMS 2 + Thermistor Expansion Pack --- \[[Orion Downloads]\]
 
 **Isometer**: ir155-3204 from [Bender]. ---- \[[Iso Datasheet]\] -- \[[Iso QuickStart]\]
 
