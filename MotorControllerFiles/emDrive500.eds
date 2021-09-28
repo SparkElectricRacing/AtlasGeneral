@@ -1,0 +1,411 @@
+[FileInfo]
+CreatedBy=Vector CANeds Scanner
+ModifiedBy=-
+Description=Scanned by Vector CANeds
+CreationTime=03:03PM
+CreationDate=03-17-2017
+ModificationTime=03:03PM
+ModificationDate=03-17-2017
+FileName=emDrive500.eds
+EDSVersion=4.0
+
+[DeviceInfo]
+BaudRate_10=0
+BaudRate_20=0
+BaudRate_50=0
+BaudRate_125=0
+BaudRate_250=0
+BaudRate_500=0
+BaudRate_800=0
+BaudRate_1000=0
+SimpleBootUpMaster=0
+SimpleBootUpSlave=0
+Granularity=-1
+DynamicChannelsSupported=0
+CompactPDO=0
+GroupMessaging=0
+NrOfRXPDO=0
+NrOfTXPDO=0
+LSS_Supported=0
+
+[DummyUsage]
+Dummy0001=0
+Dummy0002=0
+Dummy0003=0
+Dummy0004=0
+Dummy0005=0
+Dummy0006=0
+Dummy0007=0
+
+[Comments]
+Lines=0
+
+[MandatoryObjects]
+SupportedObjects=3
+1=0x1000
+2=0x1001
+3=0x1018
+
+[1000]
+ParameterName=Device Type
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x0
+PDOMapping=0
+
+[1001]
+ParameterName=Error Register
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=0x0
+PDOMapping=0
+
+[1018]
+ParameterName=Identity Object
+ObjectType=0x9
+SubNumber=2
+
+[1018sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=0x1
+PDOMapping=0
+LowLimit=1
+HighLimit=4
+
+[1018sub1]
+ParameterName=Vendor Id
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x5
+PDOMapping=0
+
+[OptionalObjects]
+SupportedObjects=7
+1=0x1008
+2=0x1009
+3=0x100A
+4=0x100B
+5=0x100F
+6=0x1200
+7=0x1F10
+
+[1008]
+ParameterName=Manufacturer Device Name
+ObjectType=0x9
+SubNumber=33
+
+[1008sub0]
+ParameterName=NrOfEntries
+ObjectType=0x7
+DataType=0x0009
+AccessType=const
+PDOMapping=0
+
+[1008sub1]
+ParameterName=Object 1008_sub1
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub2]
+ParameterName=Object 1008_sub2
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub3]
+ParameterName=Object 1008_sub3
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub4]
+ParameterName=Object 1008_sub4
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub5]
+ParameterName=Object 1008_sub5
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub6]
+ParameterName=Object 1008_sub6
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub7]
+ParameterName=Object 1008_sub7
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub8]
+ParameterName=Object 1008_sub8
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub9]
+ParameterName=Object 1008_sub9
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008subA]
+ParameterName=Object 1008_subA
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008subB]
+ParameterName=Object 1008_subB
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008subC]
+ParameterName=Object 1008_subC
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008subD]
+ParameterName=Object 1008_subD
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008subE]
+ParameterName=Object 1008_subE
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008subF]
+ParameterName=Object 1008_subF
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub10]
+ParameterName=Object 1008_sub10
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub11]
+ParameterName=Object 1008_sub11
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub12]
+ParameterName=Object 1008_sub12
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub13]
+ParameterName=Object 1008_sub13
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub14]
+ParameterName=Object 1008_sub14
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub15]
+ParameterName=Object 1008_sub15
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub16]
+ParameterName=Object 1008_sub16
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub17]
+ParameterName=Object 1008_sub17
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub18]
+ParameterName=Object 1008_sub18
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub19]
+ParameterName=Object 1008_sub19
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub1A]
+ParameterName=Object 1008_sub1A
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub1B]
+ParameterName=Object 1008_sub1B
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub1C]
+ParameterName=Object 1008_sub1C
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub1D]
+ParameterName=Object 1008_sub1D
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub1E]
+ParameterName=Object 1008_sub1E
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub1F]
+ParameterName=Object 1008_sub1F
+ObjectType=0x7
+DefaultValue=0x20
+
+[1008sub20]
+ParameterName=Object 1008_sub20
+ObjectType=0x7
+DefaultValue=0x20
+
+[1009]
+ParameterName=Manufacturer Hardware Version
+ObjectType=0x7
+DataType=0x0009
+AccessType=const
+DefaultValue=VN1630A Channel 1
+PDOMapping=0
+
+[100A]
+ParameterName=Manufacturer Software Version
+ObjectType=0x7
+DataType=0x0009
+AccessType=const
+DefaultValue=9.0.111
+PDOMapping=0
+
+[100B]
+ParameterName=Reserved:NodeID
+ObjectType=0x9
+SubNumber=11
+ObjFlags=0x3
+AccessType=ro
+PDOMapping=0
+DataType=7
+DefaultValue=$NODEID
+
+[100Bsub0]
+ParameterName=NrOfEntries
+ObjectType=0x7
+DataType=0x0005
+DefaultValue=0xa
+
+[100Bsub1]
+ParameterName=Object 100B_sub1
+ObjectType=0x7
+DefaultValue=0xa
+
+[100Bsub2]
+ParameterName=Object 100B_sub2
+ObjectType=0x7
+DefaultValue=0xa
+
+[100Bsub3]
+ParameterName=Object 100B_sub3
+ObjectType=0x7
+DefaultValue=0xa
+
+[100Bsub4]
+ParameterName=Object 100B_sub4
+ObjectType=0x7
+DefaultValue=0xa
+
+[100Bsub5]
+ParameterName=Object 100B_sub5
+ObjectType=0x7
+DefaultValue=0xa
+
+[100Bsub6]
+ParameterName=Object 100B_sub6
+ObjectType=0x7
+DefaultValue=0xa
+
+[100Bsub7]
+ParameterName=Object 100B_sub7
+ObjectType=0x7
+DefaultValue=0xa
+
+[100Bsub8]
+ParameterName=Object 100B_sub8
+ObjectType=0x7
+DefaultValue=0xa
+
+[100Bsub9]
+ParameterName=Object 100B_sub9
+ObjectType=0x7
+DefaultValue=0xa
+
+[100BsubA]
+ParameterName=Object 100B_subA
+ObjectType=0x7
+DefaultValue=0xa
+
+[100F]
+ParameterName=Reserved:NrOfSDOs
+ObjectType=0x9
+SubNumber=2
+AccessType=ro
+PDOMapping=0
+DataType=7
+
+[100Fsub0]
+ParameterName=NrOfEntries
+ObjectType=0x7
+DataType=0x0005
+DefaultValue=0x1
+
+[100Fsub1]
+ParameterName=Object 100F_sub1
+ObjectType=0x7
+DefaultValue=0x1
+
+[1200]
+ParameterName=Server SDO Parameter 0
+ObjectType=0x9
+SubNumber=3
+
+[1200sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=0x2
+PDOMapping=0
+LowLimit=0x02
+HighLimit=0x02
+
+[1200sub1]
+ParameterName=COB ID Client to Server
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=$NODEID+0x600
+PDOMapping=0
+
+[1200sub2]
+ParameterName=COB ID Server to Client
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=$NODEID+0x580
+PDOMapping=0
+
+[1F10]
+ParameterName=DynSDOConnectionState
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0x0
+PDOMapping=0
+
+[ManufacturerObjects]
+SupportedObjects=0
