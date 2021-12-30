@@ -8,9 +8,11 @@
 
 **BMS**: Orion BMS 2 + Thermistor Expansion Pack --- \[[Orion Downloads]\]
 
-**Isometer**: ir155-3204 from [Bender]. ---- \[[Iso Datasheet]\] -- \[[Iso QuickStart]\]
+**Isometer(UNUSED)**: ir155-3204 from [Bender]. ---- \[[Iso Datasheet]\] -- \[[Iso QuickStart]\]
 
-**Auxiliaries**: idk (throttle, horn)
+**Charger**: DeltaQ ICL1200 [Charger Datasheet]
+
+**Misc**: HV Cables [Coroplast Datasheet]
 
 
 
@@ -26,3 +28,5 @@
 [Bender]: https://www.bender.de/en/products/insulation-monitoring/isometer_ir155-3203ir155-3204
 [Iso Datasheet]: https://github.com/SparkElectricRacing/AtlasGeneral/files/7148433/IR155-32xx-V004_D00115_D_XXEN.Datasheet.pdf
 [Iso Quickstart]: https://github.com/SparkElectricRacing/AtlasGeneral/files/7148432/IR155-32xx-V004_D00115_D_XXEN.Quick.Start.pdf
+[Charger Datasheet]: https://drive.google.com/file/d/17kTXdek8OwJ5_Oe63_JMuOoHM_ibTPcD/view?usp=sharing
+[Coroplast Datasheet]: https://drive.google.com/file/d/1FdyJwvWDMr8d81jAtk55zOqkSc7rNCIc/view?usp=sharing
