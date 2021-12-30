@@ -10,9 +10,9 @@
 
 **Isometer(UNUSED)**: ir155-3204 from [Bender]. ---- \[[Iso Datasheet]\] -- \[[Iso QuickStart]\]
 
-**Charger**: DeltaQ ICL1200 [Charger Datasheet]
+**Charger**: DeltaQ ICL1200 \[[Charger Datasheet]\]
 
-**Misc**: HV Cables [Coroplast Datasheet]
+**Misc**: HV Cables \[[Coroplast Datasheet]\]
 
 
 
